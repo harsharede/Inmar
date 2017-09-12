@@ -4,7 +4,7 @@ column = ['a','b','c','d','e','f','g','h']
 row = [8,7,6,5,4,3,2,1]
 directions_flag = {'move_down':1,'move_up':1,'move_right':2,'move_left':2}
 board =[]
-target = ['a1','e5','g5','h8','b6','f3','d3','h3']
+
 # building chess board
 for current_row in row:
     line = []
@@ -17,17 +17,7 @@ for current_row in row:
 # Printing Chess board for reference
 
 for i in board:
-    k = []
-    # print i
-    for j in i:
-        # print j
-        if j in target:
-            j = '*'+j+'*'
-        else:
-            j = ' '+j + ' '
-        k.append(j)
-    print k
-    # print i
+    print(i)
 
 print "##################################"
 # Below fucntion help in moving piece position by 1 in respective directions
@@ -146,7 +136,7 @@ def QUEEN_Kill_All(position, target):
             path_to_kill.append(position)
             target.pop(target.index(position))
 
-    return totalsteps,path_to_kill
+    return totalsteps+1,path_to_kill
 
 
 
