@@ -5,6 +5,7 @@ Exercise 1: chessercise.py
       from the given position, with the assumption there are no other pieces on the board.
       
   Test Cases:
+  
        python chessercise.py -piece QUEEN -position d2 
        python chessercise.py -piece QUEEN -position a1 
        python chessercise.py -piece QUEEN -position a7 
@@ -18,7 +19,6 @@ Exercise 1: chessercise.py
        python chessercise.py -piece ROOK -position g8   
        python chessercise.py -piece ROOK -position g3   
        python chessercise.py -piece ROOK -position e5   
-
 
        python chessercise.py -piece KNIGHT -position d2 
        python chessercise.py -piece KNIGHT -position a1 
@@ -46,7 +46,6 @@ Exercise 2: LongPath.py
        python LongPath.py -piece ROOK -position g8 --target a1 e5 g5 h8 b6 f3 d3 h3  
        python LongPath.py -piece ROOK -position g3 --target a1 e5 g5 h8 b6 f3 d3 h3  
        python LongPath.py -piece ROOK -position e5 --target a1 e5 g5 h8 b6 f3 d3 h3  
-
 
        python LongPath.py -piece KNIGHT -position d2 --target a1 e5 g5 h8 b6 f3 d3 h3
        python LongPath.py -piece KNIGHT -position a1 --target a1 e5 g5 h8 b6 f3 d3 h3
