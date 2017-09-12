@@ -1,6 +1,7 @@
 # Inmar
 
 Exercise 1: chessercise.py
+
       A list of all the potential board positions the given piece could advance to, with one move,
       from the given position, with the assumption there are no other pieces on the board.
       
@@ -29,6 +30,7 @@ Exercise 1: chessercise.py
 
 
 Exercise 2: LongPath.py
+
       Implement a “Target” mode with --target parameter. Calculate and output the minimum set of moves which the given piece Type could take to the most distant
       
     Test Cases:
