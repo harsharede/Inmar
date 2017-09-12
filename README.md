@@ -32,7 +32,7 @@ Exercise 2: LongPath.py
 
       Implement a “Target” mode with --target parameter. Calculate and output the minimum set of moves which the given piece Type could take to the most distant
       
-   Test Cases:
+Test Cases:
     
        python LongPath.py -piece QUEEN -position d2 --target a1 e5 g5 h8 b6 f3 d3 h3
        python LongPath.py -piece QUEEN -position a1 --target a1 e5 g5 h8 b6 f3 d3 h3
@@ -56,9 +56,10 @@ Exercise 2: LongPath.py
        python LongPath.py -piece KNIGHT -position e5 --target a1 e5 g5 h8 b6 f3 d3 h3
        
  Exercise 2: Kill_IT.py
+ 
       Calculate and output the minimum set of moves which the given pieceType could take to captureall opposing pieces.
       
-    Test Cases:
+Test Cases:
     
       python Kill_IT.py -piece QUEEN -position d2 --target a1 e5 g5 h8 b6 f3 d3 h3
 
